@@ -13,7 +13,7 @@ A Unicode string value that is a collection of characters.
 
 ```csharp
 [special, forwarded]
-public class String : mana/lang/Object
+public class String : vein/lang/Object
 {
     ...
 }
@@ -22,7 +22,7 @@ public class String : mana/lang/Object
 ### Overview
 
 A string is a series of characters. 
-Strings in Mana are Unicode correct and locale insensitive, and are designed to be efficient. 
+Strings in Vein are Unicode correct and locale insensitive, and are designed to be efficient. 
 The String type bridges with the CLR class String and offers interoperability with C# functions that works with strings.
 
 You can create new strings using string literals or string interpolations. A string literal is a series of characters enclosed in quotes.

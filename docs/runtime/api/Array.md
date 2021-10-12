@@ -12,7 +12,7 @@ An object representing a static ordered collection, for use instead of an  [Arra
 
 ```csharp
 [special, forwarded]
-public class Array : mana/lang/Object
+public class Array : vein/lang/Object
 {
     ...
 }

@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 `Class`
 
-The root class of most Mana class hierarchies, from which subclasses inherit a basic interface to the runtime system and the ability to behave as Mana objects.
+The root class of most Vein class hierarchies, from which subclasses inherit a basic interface to the runtime system and the ability to behave as Vein objects.
 
 <br/>
 

@@ -1,10 +1,10 @@
 # The Basics
 
-Mana is a new programming language for Windows, OSX, Linux app development.
+Vein is a new programming language for Windows, OSX, Linux app development.
 
 
-Mana provides its own versions of all fundamental types, including Int32, UInt32 and other variants for integers, Double, Half and Float for floating-point values, Bool for Boolean values, and String for textual data. 
-Mana also provides powerful versions of the three primary collection types, Array, List, and Dictionary, as described in  [Collection Types](./CollectionTypes).
+Vein provides its own versions of all fundamental types, including Int32, UInt32 and other variants for integers, Double, Half and Float for floating-point values, Bool for Boolean values, and String for textual data. 
+Vein also provides powerful versions of the three primary collection types, Array, List, and Dictionary, as described in  [Collection Types](./CollectionTypes).
 
 
 

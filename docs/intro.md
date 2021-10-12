@@ -10,7 +10,7 @@ sidebar_position: 1
 </p>
 
 <h1 align="center">
- ⚡️🔮 Mana Lang 🔮⚡️
+ ⚡️🔮 Vein Lang 🔮⚡️
 </h1>
 
 <p align="center">
@@ -51,7 +51,7 @@ sidebar_position: 1
 
 ---
 
-> Mana is an open source high-level strictly-typed programming language with a standalone OS, arm and quantum computing support.
+> Vein is an open source high-level strictly-typed programming language with a standalone OS, arm and quantum computing support.
 
 ---
 
@@ -74,10 +74,10 @@ For building, you need the following tools:
 - vsbuild-tools-2019 with MSVC 2019, MSVC142 for ARM64
 
 
-Checkout mana sources
+Checkout vein sources
 ```bash
 git clone git://github.com/0xf6/mana_lang.git --recurse-submodules
-cd mana lang
+cd vein lang
 git fetch --prune --unshallow --tags
 
 dotnet restore
@@ -86,7 +86,7 @@ dotnet restore
 #### Compile IshtarVM
 Go to ishtar folder
 ```base
-cd .\backend\mana.backend.ishtar.light
+cd .\backend\vein.backend.ishtar.light
 ```
 Compile for Windows 10 x64
 ```bash
@@ -100,7 +100,7 @@ dotnet publish -r win-arm64 -c Release
 Copy output files
 ```bash
 mkdir output
-cp -R ./backend/mana.backend.ishtar.light/bin/net6.0/win10-x64/native/ ./output
+cp -R ./backend/vein.backend.ishtar.light/bin/net6.0/win10-x64/native/ ./output
 ```
 
 The `output` folder should contain:
@@ -111,7 +111,7 @@ The `output` folder should contain:
 
 
 #### Compile manac
-Go to mana compiler folder
+Go to vein compiler folder
 ```base
 cd .\compiler
 ```
@@ -138,10 +138,10 @@ For building, you need the following tools:
 - libkrb5-dev
 - libssl-dev
 
-Checkout mana sources
+Checkout vein sources
 ```bash
 git clone git://github.com/0xf6/mana_lang.git --recurse-submodules
-cd mana lang
+cd vein lang
 git fetch --prune --unshallow --tags
 
 dotnet restore
@@ -151,7 +151,7 @@ dotnet restore
 #### Compile IshtarVM
 Go to ishtar folder
 ```base
-cd .\backend\mana.backend.ishtar.light
+cd .\backend\vein.backend.ishtar.light
 ```
 Compile for Linux x64
 ```bash
@@ -165,11 +165,11 @@ dotnet publish -r linux-arm64 -c Release
 Copy output files
 ```bash
 mkdir output
-cp -R ./backend/mana.backend.ishtar.light/bin/Release/net6.0/linux-x64/native ./output
+cp -R ./backend/vein.backend.ishtar.light/bin/Release/net6.0/linux-x64/native ./output
 ```
 
 #### Compile manac
-Go to mana compiler folder
+Go to vein compiler folder
 ```base
 cd .\compiler
 ```
@@ -188,23 +188,23 @@ The `output` folder should contain:
 
 ## Contributing
 
-We welcome everyone to contribute to mana language.
+We welcome everyone to contribute to vein language.
 To do so, you need to know a couple of things about the folder structure::
 
 ```yaml
-/backend: folder contains all backend vm\generator for mana
+/backend: folder contains all backend vm\generator for vein
   /clr: variant generator for CLR VM
   /hashlink: variant generator for Hashlink VM
   /LLVM: variabnt generator for LLVM toolstack
   /ishtar.generator: variant generator for IshtarVM
   /ishtar.light: implementation of ishtar vm in C#
-/compiler: folder contains source for mana compiler
+/compiler: folder contains source for vein compiler
 /ide_ext: visual code extension sources
 /lib: folder with common libraries
-  /ast: mana AST library, for parsing
+  /ast: vein AST library, for parsing
   /projectsystem: project system models, for compiler
-/lsp: language server for mana lang
-/mana.std: standard library sources
+/lsp: language server for vein lang
+/vein.std: standard library sources
 /samples: Wow! its samples!
 /test: folder with various tests
 ```
@@ -213,7 +213,7 @@ You can run all tests from the root directory with `dotnet test`.
 
 To recompile the vm and the compiler: `dotnet build`.
 
-To recompile the standard library: `manac ./mana.std/corlib.wproj`.
+To recompile the standard library: `manac ./vein.std/corlib.wproj`.
 
 After your changes are done, please remember to run `dotnet format` to guarantee all files are properly formatted and
 then run the full suite with `dotnet test`.
@@ -222,7 +222,7 @@ then run the full suite with `dotnet test`.
 
 ```yaml
 Q:
-  Why is it called mana?
+  Why is it called vein?
 A:
   I liked it very much 🗿🗿🗿
   So, I tried to choose a memorable name that would be easy
@@ -264,7 +264,7 @@ A:
 
 ## License
 
-Mana is primarily distributed under the terms of both the MIT license and the Apache License (Version 2.0),
+Vein is primarily distributed under the terms of both the MIT license and the Apache License (Version 2.0),
 with portions covered by various BSD-like licenses.
 
 Check LICENSE files for more information.

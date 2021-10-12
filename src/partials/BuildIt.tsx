@@ -55,7 +55,7 @@ function Feature({Svg, path, title, url, desc}) {
 export default function HomepageFeatures() {
   return (
     <>
-      <h1 className="text--center text--primary">Build it in Mana 🏗️</h1>
+      <h1 className="text--center text--primary">Build it in Vein 🏗️</h1>
       <section className={styles.dependencies}>
         <div className="container">
           <div className="row">

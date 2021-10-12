@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 `Stucture`
 
-The root structure of most Mana structures hierarchies, from which substructures inherit a basic interface to the runtime system and the ability to behave as Mana objects.
+The root structure of most Vein structures hierarchies, from which substructures inherit a basic interface to the runtime system and the ability to behave as Vein objects.
 
 <br/>
 

@@ -3,9 +3,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Mana Lang',
+  title: 'Vein Lang',
   tagline: 'Dinosaurs are cool',
-  url: 'https://mana-lang.org',
+  url: 'https://vein-lang.org',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -19,9 +19,9 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: 'Mana Lang',
+      title: 'Vein Lang',
       logo: {
-        alt: 'Mana Lang Logo',
+        alt: 'Vein Lang Logo',
         src: 'img/icon.svg',
       },
       items: [
@@ -81,7 +81,7 @@ module.exports = {
           ],
         }
       ],
-      copyright: `Copyright © 2020-${new Date().getFullYear()} Mana Lang. MIT License`,
+      copyright: `Copyright © 2020-${new Date().getFullYear()} Vein Lang. MIT License`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -96,12 +96,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/0xF6/docs.mana-lang/edit/master/',
+            'https://github.com/0xF6/docs.vein-lang/edit/master/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/0xF6/docs.mana-lang/edit/master/website/blog/',
+            'https://github.com/0xF6/docs.vein-lang/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
