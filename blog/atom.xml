@@ -13,5 +13,9 @@
         <link href="https://vein-lang.org/blog/2019/09/05/hello-docusaurus-v2"/>
         <updated>2019-09-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Foo bar]]></summary>
+        <author>
+            <name>Svack</name>
+            <uri>https://github.com/0xF6</uri>
+        </author>
     </entry>
 </feed>

@@ -1,0 +1,1 @@
+(self.webpackChunkdocs_vein_lang=self.webpackChunkdocs_vein_lang||[]).push([[339],{9609:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/tag-2","name":"tag2","count":1,"permalink":"/blog/tags/tag-2"}')}}]);
