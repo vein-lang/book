@@ -1,0 +1,1 @@
+(self.webpackChunkdocs_vein_lang=self.webpackChunkdocs_vein_lang||[]).push([[535],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"The title","permalink":"/blog/2019/09/05/hello-docusaurus-v2"}]}')}}]);
